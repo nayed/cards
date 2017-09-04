@@ -21,7 +21,8 @@ defmodule Cards.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_doc, "~> 0.16"}
+      {:ex_doc, "~> 0.16"},
+      {:inch_ex, "~> 0.5", only: :docs}
     ]
   end
 end
